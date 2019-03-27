@@ -1,0 +1,95 @@
+h1 {
+
+}
+h2{
+
+}
+h3 {
+font-size:5em;
+font-family: CustomX;
+src: url(fonts/CustomX.ttf);
+
+}
+body {
+background-image: url("time_background.jpg");
+background-repeat: no-repeat;
+}
+
+.content {
+	color: black;
+	margin-left:50%;
+}
+
+.column {
+    width: 40%;
+    padding: 2px;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+#capsule {
+	float:right;
+	font-size:50px;
+	color:black;
+	margin-left:70%;
+	text-align:right;
+	float:right;
+}
+
+p{
+	font-size:40px;
+}
+
+
+@font-face {
+    font-family: UniverseL;
+    src: url(fonts/UniverseL.ttf);
+    font-family: CustomX;
+src: url(fonts/CustomX.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+	float:left;
+    position: fixed;
+    background-color: red;
+    width: 12em;
+    font-family: UniverseL;
+    margin-top: .2em;
+    margin-left: .2em;
+    background: rgba(255, 0, 0, 0.6);
+}
+
+#menu h1 {
+    padding-left:.1em;
+    margin-bottom: 1em;
+    font-style: italic;
+    font-size: 3em;
+}
+
+#menu h2 {
+    padding-left:.5em;
+}
+
+#menu h1:hover {
+    color: darkred;
+    text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
+    border-left: .3em gold solid;
+    margin-left: -.1em;
+}
+
+#menu h2:hover {
+    color: darkred;
+    text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
+    border-left: .3em gold solid;
+    margin-left: -.1em;
+}
+
+
