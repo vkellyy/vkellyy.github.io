@@ -50,10 +50,11 @@ p{
 	font-size:40px;
 }
 
-
 @font-face {
     font-family: UniverseL;
     src: url(fonts/UniverseL.ttf);
+}
+@font-face {
     font-family: CustomX;
     src: url(fonts/CustomX.ttf);
 }
