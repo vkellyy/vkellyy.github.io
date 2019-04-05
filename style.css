@@ -19,9 +19,12 @@ body {
 
 #menu {
     width: 13em;
-    height: 19.5em;
+    height: 15.5em;
     margin-top: .2em;
     margin-left: .2em;
+    border: 1px solid black;
+    box-shadow: -3px 3px 6px;
+    opacity: .7;
 }
 
 .content {
@@ -38,16 +41,17 @@ h3 {
 
 #capsule {
     font-size: 3em;
+    font-family: CustomX;
 }
 
 #ascii {
     z-index: -1;
     opacity: .2;
-    position:absolute;
-    width:100%;
-    padding-top:30vh;
-    text-align:center;
-    font-size:20em;
+    position: absolute;
+    width: 100%;
+    padding-top: 30vh;
+    text-align: center;
+    font-size: 20em;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
