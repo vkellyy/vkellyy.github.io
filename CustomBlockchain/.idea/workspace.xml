@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d18b70e0-2741-4f1a-b533-a1950d49e563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BcF.py" beforeDir="false" afterPath="$PROJECT_DIR$/BcF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FFB.py" beforeDir="false" afterPath="$PROJECT_DIR$/FFB.py" afterDir="false" />
-    </list>
+    <list default="true" id="d18b70e0-2741-4f1a-b533-a1950d49e563" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BcF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+            <state relative-caret-position="298">
+              <caret line="125" column="50" lean-forward="true" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
               <folding>
                 <element signature="e#111#125#0" expanded="true" />
               </folding>
@@ -74,7 +71,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FFB.py" root0="FORCE_HIGHLIGHTING" />
@@ -89,7 +86,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1272" />
     <option name="width" value="1297" />
     <option name="height" value="1398" />
   </component>
@@ -206,7 +203,7 @@
       <workItem from="1553298107467" duration="1109000" />
       <workItem from="1553644892908" duration="753000" />
       <workItem from="1554484849581" duration="782000" />
-      <workItem from="1554493233911" duration="3266000" />
+      <workItem from="1554493233911" duration="4639000" />
     </task>
     <task id="LOCAL-00001" summary="adding commit from pycharm">
       <created>1554493717760</created>
@@ -215,11 +212,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554493717760</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed variables names to make sense. Still needs work.">
+      <created>1554499535065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554499535065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17499000" />
+    <option name="totallyTimeSpent" value="18872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,15 +235,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1037" height="1118" extended-state="0" />
-    <editor active="true" />
+    <frame x="1018" y="0" width="1037" height="1118" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25588536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21906693" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21906693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,7 +269,8 @@
       <path value="$PROJECT_DIR$/blockchain_timecapsule" />
     </ignored-roots>
     <MESSAGE value="adding commit from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding commit from pycharm" />
+    <MESSAGE value="changed variables names to make sense. Still needs work." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed variables names to make sense. Still needs work." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Cryptography Presentation/sha256miningdemonstration/SecureHashAlgorithm256_miningdemonstration.py" />
@@ -303,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BcF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        <state relative-caret-position="298">
+          <caret line="125" column="50" lean-forward="true" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
           <folding>
             <element signature="e#111#125#0" expanded="true" />
           </folding>
