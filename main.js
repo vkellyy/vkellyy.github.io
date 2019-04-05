@@ -1,5 +1,7 @@
 //requires jquery and javascript
 $(document).ready(function () {
+    $('body').removeAttr('id');
+
     function displayTime() {
         var countDownDate = new Date("April 17, 2029 15:00:00").getTime();
 
