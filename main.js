@@ -1,6 +1,6 @@
 //requires jquery and javascript
 $(document).ready(function () {
-    $('html').hide().fadeIn(700);
+    $('html').removeClass(".hidepage").fadeIn(700);
     function displayTime() {
         var countDownDate = new Date("April 17, 2029 15:00:00").getTime();
         var x = setInterval(function () {

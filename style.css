@@ -3,13 +3,17 @@
     src: url(fonts/CustomX.ttf);
 }
 
+.hidepage {
+    display:none;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 html {
-    background-image:  linear-gradient(39deg, rgba(255,166,0,1) 0%, rgba(252,145,45,1) 47%, rgba(255,159,153,1) 79%);
+    background-image: linear-gradient(39deg, rgba(255, 166, 0, 1) 0%, rgba(252, 145, 45, 1) 47%, rgba(255, 159, 153, 1) 79%);
     overflow-x: hidden;
 }
 
