@@ -14,7 +14,7 @@
 
 html {
     background-color: #FF0000;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 159, 153, 1) 99%);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(255, 159, 153, 1) 99%);
     animation: rainbow 10s infinite;
     overflow-x: hidden;
 }
@@ -75,7 +75,6 @@ h3 {
     padding-top: 30vh;
     text-align: center;
     font-size: 20em;
-    background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: .005em;
