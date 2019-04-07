@@ -1,6 +1,12 @@
 //requires jquery and javascript
 $(document).ready(function () {
-    $('html').removeClass(".hidepage").fadeIn(700);
+    $('body').removeClass(".hidepage").fadeIn(700);
+    /*
+    fix pls
+    $("#ascii").hide().show("slide", {
+        direction: "left"
+    }, 1500);*/
+
     function displayTime() {
         var countDownDate = new Date("April 17, 2029 15:00:00").getTime();
         var x = setInterval(function () {
