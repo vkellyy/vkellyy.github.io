@@ -48,12 +48,14 @@ body {
     border: 1px solid black;
     box-shadow: -3px 3px 6px;
     opacity: .85;
+    margin:auto;
 }
 
 .content {
     color: black;
     padding-left: 5%;
     width: 30%;
+    margin:auto;
 }
 
 h3 {
@@ -63,8 +65,9 @@ h3 {
 }
 
 #capsule {
+    border:.25em solid black;
     font-size: 3em;
-    font-family: CustomX;
+    margin:auto;
 }
 
 #ascii {
