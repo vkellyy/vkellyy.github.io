@@ -7,67 +7,48 @@
     display: none;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 html {
-    background-color: #FF0000;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(255, 159, 153, 1) 99%);
-    animation: rainbow 10s infinite;
+    background: url(background.svg);
     overflow-x: hidden;
 }
 
-@keyframes rainbow {
-
-    /* set your colors and when they should occur here */
-    0%,
-    100% {
-        rgba(255, 166, 0, 1) 80%;
-    }
-
-    33.33% {
-        background-color: #00FF00;
-    }
-
-    66.66% {
-        background-color: #0000FF;
-    }
-}
 
 body {
     display: flex;
 }
 
 #menu {
-    width: 17em;
-    height: 20em;
+    width: 13em;
+    height: 17em;
     margin-top: .2em;
     margin-left: .2em;
     border: 1px solid black;
     box-shadow: -3px 3px 6px;
     opacity: .85;
-    margin:auto;
 }
 
+
 .content {
-    color: black;
-    padding-left: 5%;
-    width: 30%;
-    margin:auto;
+    margin-left:1%;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%)
 }
 
 h3 {
     font-size: 5em;
-    border-bottom: .07em dashed black;
     font-family: CustomX;
 }
 
 #capsule {
-    border:.25em solid black;
+    border: .05em solid black;
     font-size: 3em;
-    margin:auto;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+}
+#capsuleshadow{
+    
 }
 
 #ascii {
