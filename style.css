@@ -19,28 +19,44 @@ html {
     overflow-x: hidden;
 }
 
+@keyframes rainbow {
+
+    /* set your colors and when they should occur here */
+    0%,
+    100% {
+        rgba(255, 166, 0, 1) 80%;
+    }
+
+    33.33% {
+        background-color: #00FF00;
+    }
+
+    66.66% {
+        background-color: #0000FF;
+    }
+}
 
 body {
     display: flex;
-    margin:auto;
-    padding:auto;
 }
 
 #menu {
     width: 17em;
-    height: 27%;
-    margin-top: 35vh;
-    margin-left: 3%;
+    height: 20em;
+    margin-top: .2em;
+    margin-left: .2em;
     border: 1px solid black;
     box-shadow: -3px 3px 6px;
     opacity: .85;
-    position:fixed;
+    margin:auto;
+    position:absolute;
 }
 
 .content {
     color: black;
+    padding-left: 5%;
     width: 30%;
-    margin-left:20%;
+    margin:auto;
 }
 
 h3 {
@@ -50,11 +66,9 @@ h3 {
 }
 
 #capsule {
-    border:.05em solid black;
+    border:.1em solid black;
     font-size: 3em;
-    margin-top: 50vh;
-    margin-left:75%;
-    position:fixed;
+    margin:auto;
 }
 
 #ascii {
@@ -82,22 +96,16 @@ p {
     }
 
     #menu {
-        padding:0;
-        margin:0;
         width: 70%;
-        position:inherit;
     }
 
     .content {
-        padding:0;
-        margin:0;
-        position:inherit;
+        padding-left: 0;
+        width: auto;
     }
 
     #capsule {
-        padding:0;
-        margin:0;
-        position:inherit;
+        padding-left: 0;
     }
 
 }
