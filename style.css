@@ -49,7 +49,6 @@ body {
     box-shadow: -3px 3px 6px;
     opacity: .85;
     margin:auto;
-    position:absolute;
 }
 
 .content {
@@ -66,7 +65,7 @@ h3 {
 }
 
 #capsule {
-    border:.1em solid black;
+    border:.25em solid black;
     font-size: 3em;
     margin:auto;
 }
