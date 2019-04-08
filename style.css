@@ -34,11 +34,7 @@ body {
     border: 1px solid black;
     box-shadow: -3px 3px 6px;
     opacity: .85;
-<<<<<<< HEAD
     position:fixed;
-=======
-    margin:auto;
->>>>>>> parent of 338214c... Update style.css
 }
 
 .content {
@@ -54,11 +50,7 @@ h3 {
 }
 
 #capsule {
-<<<<<<< HEAD
     border:.05em solid black;
-=======
-    border:.25em solid black;
->>>>>>> parent of 338214c... Update style.css
     font-size: 3em;
     margin-top: 50vh;
     margin-left:75%;
