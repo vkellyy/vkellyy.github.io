@@ -29,22 +29,18 @@ body {
 #menu {
     width: 17em;
     height: 27%;
-    margin-top: 35vh;
+    margin-top: 35%;
     margin-left: 3%;
     border: 1px solid black;
     box-shadow: -3px 3px 6px;
     opacity: .85;
-<<<<<<< HEAD
     position:fixed;
-=======
-    margin:auto;
->>>>>>> parent of 338214c... Update style.css
 }
 
 .content {
     color: black;
     width: 30%;
-    margin-left:20%;
+    margin-left:25%;
 }
 
 h3 {
@@ -54,11 +50,7 @@ h3 {
 }
 
 #capsule {
-<<<<<<< HEAD
     border:.05em solid black;
-=======
-    border:.25em solid black;
->>>>>>> parent of 338214c... Update style.css
     font-size: 3em;
     margin-top: 50vh;
     margin-left:75%;
@@ -90,22 +82,22 @@ p {
     }
 
     #menu {
-        padding:0;
-        margin:0;
+        padding:auto;
+        margin:auto;
         width: 70%;
-        position:inherit;
+        position:relative;
     }
 
     .content {
-        padding:0;
-        margin:0;
-        position:inherit;
+        padding:auto;
+        margin:auto;
+        position:relative;
     }
 
     #capsule {
-        padding:0;
-        margin:0;
-        position:inherit;
+        padding:auto;
+        margin:auto;
+        position:relative;
     }
 
 }
