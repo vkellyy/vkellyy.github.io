@@ -31,7 +31,7 @@ body {
 .content {
     margin-left:1%;
     position: absolute;
-    font-type:helvetica;
+    font-family:helvetica;
     left: 45%;
     transform: translateX(-50%)
 }
