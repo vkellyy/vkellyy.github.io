@@ -1,11 +1,35 @@
 //requires jquery and javascript
 $(document).ready(function () {
+
+    $("#genx").hide();
+    $("#millennial").hide();
+    $("#genz").hide();
+
     $('body').removeClass(".hidepage").fadeIn(700);
-    /*
-    fix pls
-    $("#ascii").hide().show("slide", {
-        direction: "left"
-    }, 1500);*/
+
+    /*$("#millennialm").slideToggle("slow");*/
+
+    $('#genxm').click(function () {
+        $("#millennial").slideUp();
+        $("#genz").slideUp();
+        $("#genx").slideToggle();
+    });
+
+    $('#millennialm').click(function () {
+        $("#genx").slideUp();
+        $("#genz").slideUp();
+        $("#millennial").slideToggle();
+    });
+
+    $('#genzm').click(function () {
+        $("#genx").slideUp();
+        $("#millennial").slideUp();
+        $("#genz").slideToggle();
+    });
+
+
+
+
 
     function displayTime() {
         var countDownDate = new Date("April 17, 2029 15:00:00").getTime();

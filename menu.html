@@ -1,57 +1,66 @@
 <html>
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <style>
         @font-face {
             font-family: UniverseL;
             src: url(fonts/UniverseL.ttf);
         }
+
         a {
             color: black;
             text-decoration: none;
         }
+
         body {
             background-color: red;
             font-family: UniverseL;
             background: rgba(255, 0, 0, 0.6);
         }
+
         h1 {
+            color: darkred;
             padding-left: .1em;
             margin-bottom: 1em;
             font-style: italic;
-            font-size: 3em;
+            font-size: 2em;
         }
+
         h2 {
+            font-size: 1.5em;
             padding-left: .5em;
         }
+
         h1:hover {
-            color: darkred;
+            color: black;
             text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
             border-left: .3em gold solid;
             margin-left: -.1em;
         }
+
         h2:hover {
             color: darkred;
             text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
             border-left: .3em gold solid;
             margin-left: -.1em;
         }
+
     </style>
 </head>
 
 <body id="menu">
-    <a href="index.html" target="_top">
-        <h1>Home</h1>
-    </a>
-    <a href="genx.html" target="_top">
+    <a id="genxm" target="_top">
         <h2>Gen X</h2>
     </a>
-    <a href="millennial.html" target="_top">
+    <a id="millennialm" target="_top">
         <h2>Millennial</h2>
     </a>
-    <a href="genz.html" target="_top">
+    <a id="genzm" target="_top">
         <h2>Gen Z</h2>
     </a>
+    <!--<h3 style="opacity:.5; color:gray;">time capsule</h3>-->
 </body>
 
 </html>
