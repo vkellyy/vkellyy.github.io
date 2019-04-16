@@ -13,7 +13,7 @@
 }
 
 html {
-    background: url(background.svg);
+    background-image: linear-gradient(to bottom right, #f9a79a, #fc912d);
 }
 
 #menu {
