@@ -1,17 +1,11 @@
 //requires jquery and javascript
 $(document).ready(function () {
 
-    $('#buggin').click(function () {
-        console.log("lol");
-        $("#mediaplayer").attr("src", "https://www.youtube.com/embed/kQ7KN7RKkuY");
-    });
-
     $("#genx").hide();
     $("#millennial").hide();
     $("#genz").hide();
 
     $('body').removeClass(".hidepage").fadeIn(3500);
-
 
     $('#genxm').click(function () {
         $("#genx").slideToggle();
@@ -32,6 +26,22 @@ $(document).ready(function () {
     });
 
 
+    function draw() {
+        var ctx = document.getElementById('canvas').getContext('2d');
+
+        // create new image object to use as pattern
+        var img = new Image();
+        img.src = 'https://mdn.mozillademos.org/files/222/Canvas_createpattern.png';
+        img.onload = function () {
+
+            // create pattern
+            var ptrn = ctx.createPattern(img, 'repeat');
+            ctx.fillStyle = ptrn;
+            ctx.fillRect(0, 0, 200, 150);
+
+        }
+    }
+    draw();
 
 
 
@@ -70,18 +80,6 @@ $(document).ready(function () {
                 minutes + ":" + seconds + "";
         });
     }
-
-    /*function checkdisplay() {
-        if ($("#genx").is(":hidden") && $("#millenial").is(":hidden") && $("#genz").is(":hidden")) {
-            $("#mediaplayer").hide();
-        } 
-        
-        
-        else {
-            $("#mediaplayer").show();
-        }
-    }*/
-
-
     displayTime();
+    draw();
 });
