@@ -34,27 +34,21 @@ a {
 }
 
 
-h1 {
-    color: red;
-    padding-left: .1em;
-    margin-bottom: 1em;
-    font-style: italic;
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.3em;
+.generation {
+    font-size: 1.5em;
     padding-left: .5em;
 }
 
-h1:hover {
-    color: black;
-    text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
-    border-left: .3em gold solid;
-    margin-left: -.1em;
+.years{
+    font-size:.75em;
 }
 
-h2:hover {
+#genxm, #millennialm, #genzm{
+    font-size:1em;
+    margin-top:1em;
+}
+
+#genxm:hover, #millennialm:hover, #genzm:hover {
     color: darkred;
     text-shadow: -3px 0 gold, 0 .3px gold, .3px 0 gold, 0 -.3px gold;
     border-left: .3em gold solid;
@@ -62,9 +56,10 @@ h2:hover {
 }
 
 
+
 #Slogan {
     z-index: -1;
-    position: fixed;
+    position: absolute;
     font-size: 2em;
     color: #999999;
     text-align: justify;
