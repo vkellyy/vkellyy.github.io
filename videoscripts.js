@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $('#buggin').click(function () {
-        $("#mediaplayer").attr("src", "https://www.youtube.com/embed/kQ7KN7RKkuY");
+        $("#mediaplayer").attr("src", "GenXvideos/buggin.mp4");
     });
     $('#bones').click(function () {
-        $("#mediaplayer").attr("src", "https://www.youtube.com/embed/PBwAxmrE194");
+        $("#mediaplayer").attr("src", "GenXvideos/bones.mp4");
     });
     $('#crib').click(function () {
-        $("#mediaplayer").attr("src", "https://www.youtube.com/embed/1tkQ05EARPI");
+        $("#mediaplayer").attr("src", "GenXvideos/crib.mp4");
     });
 });
