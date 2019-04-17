@@ -26,22 +26,15 @@ $(document).ready(function () {
     });
 
 
-    function draw() {
-        var ctx = document.getElementById('canvas').getContext('2d');
+    function FillSlogan() {
+        var text = '';
 
-        // create new image object to use as pattern
-        var img = new Image();
-        img.src = 'https://mdn.mozillademos.org/files/222/Canvas_createpattern.png';
-        img.onload = function () {
-
-            // create pattern
-            var ptrn = ctx.createPattern(img, 'repeat');
-            ctx.fillStyle = ptrn;
-            ctx.fillRect(0, 0, 200, 150);
-
+        for (var i = 0; i < 5000; i++) {
+            text += ', ';
         }
+
+        $('#Slogan').html(text);
     }
-    draw();
 
 
 
@@ -81,5 +74,5 @@ $(document).ready(function () {
         });
     }
     displayTime();
-    draw();
+    FillSlogan();
 });

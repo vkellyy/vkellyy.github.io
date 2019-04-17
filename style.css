@@ -81,10 +81,12 @@ h2:hover {
 }
 
 .pSpeech{
+    margin: 0;
     font-size:3em;
 }
 .definition {
     margin: 0;
+    font-size:2em;
 }
 
 h3 {
