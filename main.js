@@ -1,6 +1,11 @@
 //requires jquery and javascript
 $(document).ready(function () {
 
+    $('#buggin').click(function () {
+        console.log("lol");
+        $("#mediaplayer").attr("src", "https://www.youtube.com/embed/kQ7KN7RKkuY");
+    });
+
     $("#genx").hide();
     $("#millennial").hide();
     $("#genz").hide();
