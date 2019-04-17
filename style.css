@@ -73,7 +73,6 @@ h2:hover {
 }
 
 .word {
-    border-top: 1px black dashed;
     font-size: 5em;
     font-style: italic;
     margin: 0;
