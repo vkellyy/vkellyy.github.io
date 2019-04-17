@@ -5,20 +5,19 @@ $(document).ready(function () {
     $("#millennial").hide();
     $("#genz").hide();
 
-    $('body').removeClass(".hidepage").fadeIn(700);
+    $('body').removeClass(".hidepage").fadeIn(3500);
 
-    /*$("#millennialm").slideToggle("slow");*/
 
     $('#genxm').click(function () {
+        $("#genx").slideToggle();
         $("#millennial").slideUp();
         $("#genz").slideUp();
-        $("#genx").slideToggle();
     });
 
     $('#millennialm').click(function () {
         $("#genx").slideUp();
-        $("#genz").slideUp();
         $("#millennial").slideToggle();
+        $("#genz").slideUp();
     });
 
     $('#genzm').click(function () {
@@ -66,5 +65,18 @@ $(document).ready(function () {
                 minutes + ":" + seconds + "";
         });
     }
+
+    /*function checkdisplay() {
+        if ($("#genx").is(":hidden") && $("#millenial").is(":hidden") && $("#genz").is(":hidden")) {
+            $("#mediaplayer").hide();
+        } 
+        
+        
+        else {
+            $("#mediaplayer").show();
+        }
+    }*/
+
+
     displayTime();
 });
