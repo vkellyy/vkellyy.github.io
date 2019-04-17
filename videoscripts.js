@@ -32,37 +32,70 @@ $(document).ready(function () {
     $('#woke').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/woke.mp4");
     });
-     $('#ghost').click(function () {
+    $('#ghost').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/ghost.mp4");
     });
-     $('#gassed').click(function () {
+    $('#gassed').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/gassed.mp4");
     });
-     $('#woke').click(function () {
+    $('#woke').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/woke.mp4");
     });
-     $('#fleek').click(function () {
+    $('#fleek').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
     });
-     $('#finesse').click(function () {
+    $('#finesse').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/finesse.mp4");
     });
-     $('#fleek').click(function () {
+    $('#fleek').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
     });
-     $('#yeet').click(function () {
+    $('#yeet').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/yeet.mp4");
     });
-     $('#finna').click(function () {
+    $('#finna').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/finna.mp4");
     });
-     $('#ship_it').click(function () {
+    $('#ship_it').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/ship_it.mp4");
     });
-     $('#fleek').click(function () {
+    $('#fleek').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
     });
-     $('#lit').click(function () {
+    $('#lit').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/lit.mp4");
+    });
+    $('#salty').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/salty.mp4");
+    });
+    $('#shook').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/shook.mp4");
+    });
+    $('#bussin').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/bussin.mp4");
+    });
+    $('#thirsty').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/thirsty.mp4");
+    });
+    $('#jakes').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/jakes.mp4");
+    });
+    $('#clipped').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/clipped.mp4");
+    });
+    $('#jawn').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/jawn.mp4");
+    });
+    $('#jit').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/jit.mp4");
+    });
+    $('#big_smoke').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/big_smoke.mp4");
+    });
+    $('#bop').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/bop.mp4");
+    });
+    $('#deep').click(function () {
+        $("#mediaplayer").attr("src", "GenZvideos/deep.mp4");
     });
 });
