@@ -44,4 +44,25 @@ $(document).ready(function () {
      $('#fleek').click(function () {
         $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
     });
+     $('#finesse').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/finesse.mp4");
+    });
+     $('#fleek').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
+    });
+     $('#yeet').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/yeet.mp4");
+    });
+     $('#finna').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/finna.mp4");
+    });
+     $('#ship_it').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/ship_it.mp4");
+    });
+     $('#fleek').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/fleek.mp4");
+    });
+     $('#lit').click(function () {
+        $("#mediaplayer").attr("src", "Millennialvideos/lit.mp4");
+    });
 });
